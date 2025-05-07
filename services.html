@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Services – O Farms Realty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .services-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.2rem;
+    }
+    .service-card {
+      background: #f3fbe9;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(78,112,49,0.07);
+      padding: 1.5rem 1rem 1.2rem 1rem;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-height: 220px;
+    }
+    .service-card h3 {
+      margin-top: 0;
+      color: #4e7031;
+      margin-bottom: 0.6rem;
+    }
+    .service-card p {
+      color: #3e6b2e;
+      font-size: 1.03rem;
+      margin-bottom: 0.2rem;
+    }
+    .service-card .icon {
+      font-size: 2.2rem;
+      margin-bottom: 0.7rem;
+      color: #5ba150;
+    }
+    .custom-plan {
+      background: #e8f5e9;
+      border-left: 6px solid #4e7031;
+      border-radius: 10px;
+      padding: 1.3rem 1.5rem;
+      margin: 2rem 0;
+      font-size: 1.08rem;
+      color: #2a2a2a;
+    }
+    @media (max-width: 600px) {
+      .services-gallery {
+        grid-template-columns: 1fr;
+      }
+      .service-card {
+        min-height: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="Logo.png" alt="O Farms Logo" />
+      <span class="brand-title">O Farms Realty</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Services</h1>
+
+    <section class="custom-plan" aria-label="Personalized Investment Plans">
+      <strong>Personalized Investment Plans:</strong><br />
+      At O Farms Realty, every client receives a custom plan. We begin with a one-on-one meeting to understand your vision, goals, and preferences. Based on your needs, our experts craft a tailored land investment strategy-whether you’re looking for a serene farmhouse, a high-yield agricultural plot, or a sustainable community investment.<br /><br />
+      <b>Your goals are unique-your investment plan should be too.</b>
+    </section>
+
+    <section class="services-gallery" aria-label="List of services">
+      <article class="service-card">
+        <div class="icon" aria-hidden="true">🌱</div>
+        <h2>Farm Land Investment Advisory</h2>
+        <p>Expert guidance to help you select and acquire high-potential farm land, tailored to your investment goals.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="icon" aria-hidden="true">🏡</div>
+        <h2>Project Development</h2>
+        <p>End-to-end management of farm land development, from layout to plantation and eco-friendly infrastructure.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="icon" aria-hidden="true">🛡️</div>
+        <h2>Due Diligence &amp; Legal Assistance</h2>
+        <p>Comprehensive legal checks and transparent paperwork to ensure your investment is secure and hassle-free.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="icon" aria-hidden="true">🔄</div>
+        <h2>Resale &amp; Exit Support</h2>
+        <p>Assistance with selling or leasing your farm land for maximum returns and peace of mind.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="icon" aria-hidden="true">🏙️</div>
+        <h2>Urban Real Estate Consulting</h2>
+        <p>Guidance on residential, commercial, and mixed-use property investments in Bangalore and beyond.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <img src="Logo.png" alt="O Farms Logo" class="footer-logo" />
+      <div class="footer-details">
+        <div class="footer-brand">O Farms Realty</div>
+        <address class="footer-contact">
+          <p>Email: <a href="mailto:support@ofarms.com">support@ofarms.com</a></p>
+          <p>Phone: <a href="tel:9886064957">9886064957</a></p>
+        </address>
+        <div class="footer-address">
+          <p>Bangalore, India</p>
+        </div>
+        <div class="footer-copy">&copy; 2025 O Farms Realty. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

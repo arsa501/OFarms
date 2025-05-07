@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – O Farms Realty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="Logo.png" alt="O Farms Logo" />
+      <span class="brand-title">O Farms Realty</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact &amp; Book Appointment</h1>
+    <p>
+      Ready to invest or have a question? Fill out the form below to book a free 15-minute consultation or send us your inquiry.
+    </p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+      <div class="form-group">
+        <label for="name">Full Name <span aria-hidden="true">*</span></label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email <span aria-hidden="true">*</span></label>
+        <input type="email" id="email" name="_replyto" required aria-required="true" />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone <span aria-hidden="true">*</span></label>
+        <input type="tel" id="phone" name="phone" required aria-required="true" />
+      </div>
+
+      <div class="form-group">
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" name="date" />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message / Questions</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+      </div>
+
+      <input type="hidden" name="_subject" value="O Farms Appointment/Contact Request" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <section aria-label="Direct contact details" style="margin-top: 2rem;">
+      <p>
+        Or reach us directly:<br />
+        <strong>Email:</strong> <a href="mailto:support@ofarms.com">support@ofarms.com</a><br />
+        <strong>Phone:</strong> <a href="tel:9886064957">9886064957</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <img src="Logo.png" alt="O Farms Logo" class="footer-logo" />
+      <div class="footer-details">
+        <div class="footer-brand">O Farms Realty</div>
+        <div class="footer-contact">
+          <span>Email: <a href="mailto:support@ofarms.com">support@ofarms.com</a></span><br />
+          <span>Phone: <a href="tel:9886064957">9886064957</a></span>
+        </div>
+        <div class="footer-address">
+          <span>Bangalore, India</span>
+        </div>
+        <div class="footer-copy">&copy; 2025 O Farms Realty. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
